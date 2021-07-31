@@ -1,4 +1,4 @@
-def isEven(n):
+def is_even(n):
     if n % 2 == 0:
         return True
     else:
@@ -11,7 +11,7 @@ def main():
 
 
 def find_num(n):
-    if not isEven(n):
+    if not is_even(n):
         n = (n * 3) + 1
     else:
         n /= 2
